@@ -1,2 +1,3 @@
+
 # PostException
-Napraviti hijararhiju izuzetaka vezanih za unos Pošiljki. Svaka pošiljka ima naziv, težinu, adresu, grad, poštanski broj i broj telefona. Ukoliko se desi da grad ima manje od 2 karaktera treba da se desi GradNijeValidanException. Ukoliko poštanski broj nema 5 brojeva treba da se desi PoštanskiBrojNijeValidanException. Svi Exception-u koji su vezani za pošiljku treba da naslede PošiljkaException. Testirati rad izuzetaka kroz pokretačku klasu.
+Create a hierarchy of exceptions related to the entry of Shipments. Each shipment has a name, weight, address, city, zip code and phone number. If it happens that the city has less than 2 characters, the CityNot ValidException should happen. If the zip code does not have 5 numbers, the Zip Code is not valid. All Exception related to a shipment should inherit ShipmentException. Test the operation of exceptions through the startup class.
